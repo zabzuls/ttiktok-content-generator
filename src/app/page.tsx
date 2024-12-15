@@ -49,7 +49,7 @@ const TikTokContentGenerator: React.FC = () => {
             key={frameIndex}
             id={`content-frame-${frameIndex}`}
             className="relative w-64 h-full aspect-[9/16] bg-cover bg-center shadow-lg rounded-lg"
-            style={{ backgroundImage: "url('/Background-Konten.png')" }}
+            style={{ backgroundImage: "url('/Background-konten.png')" }}
           >
             <div className="absolute inset-0 flex flex-col gap-4 pl-4 mt-11">
               {frameContent.map((item, itemIndex) => (
